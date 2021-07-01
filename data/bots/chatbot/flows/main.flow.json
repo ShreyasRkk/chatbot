@@ -1,0 +1,40 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "entry",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-d364"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-to0S8h"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "3eaffd2084",
+      "name": "node-d364",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-b66zXC",
+        "action {}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}
